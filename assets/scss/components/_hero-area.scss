@@ -1,1 +1,38 @@
 /*======= Hero Area =======*/
+.hero-area {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    &::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: #000;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    .slider-content {
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 1.62;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-weight: 700;
+            font-size: 54px;
+            line-height: 1.2;
+            text-transform: capitalize;
+            color: $color-white;
+        }
+        .common-button {
+            padding: 10px 25px;
+        }
+    }
+}

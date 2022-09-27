@@ -1,7 +1,7 @@
 // Font Family
 $font-family: (
-  font-montserrat: "'Montserrat', sans-serif",
-  font-noto-sans: "'Noto Sans', sans-serif",
+    font-montserrat: "'Montserrat', sans-serif",
+    font-noto-sans: "'Noto Sans', sans-serif",
 );
 
 $font-noto-sans: var(--font-noto-sans);
@@ -9,15 +9,15 @@ $font-montserrat: var(--font-montserrat);
 
 // Color
 $colors: (
-  color-black: #000,
-  color-dark-black: #03031c,
-  color-dark-black-2: #040528,
-  color-white: #fff,
-  color-off-white: #f2f4f6,
-  color-gray: #c0c0c0,
-  color-yellow: #ffd937,
-  color-red: #da0037,
-  color-black-rgb: 0 0 0,
+    color-black: #000,
+    color-dark-black: #03031c,
+    color-dark-black-2: #040528,
+    color-white: #fff,
+    color-off-white: #f2f4f6,
+    color-gray: #c0c0c0,
+    color-yellow: #ffd937,
+    color-red: #da0037,
+    color-black-rgb: 0 0 0,
 );
 
 $color-black: var(--color-black);
@@ -32,11 +32,11 @@ $color-black-rgb: var(--color-black-rgb);
 
 // Breakpoints.
 $breakpoints: (
-  xs: 425px,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px,
-  c1600: 1600px,
+    xs: 425px,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+    c1600: 1600px,
 );

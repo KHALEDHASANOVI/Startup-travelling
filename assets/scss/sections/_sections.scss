@@ -1,3 +1,196 @@
+/*======= visited-area =======*/
+.visited-area {
+    .visited-content {
+        h2 {
+            font-weight: 700;
+            font-size: 42px;
+            line-height: 48px;
+            text-align: center;
+            text-transform: capitalize;
+            padding-bottom: 75px;
+        }
+        .middle {
+            padding-top: 75px;
+            text-align: center;
+            .common-button {
+                i {
+                    margin-left: 5px;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .card-title {
+        color: $color-white;
+    }
+}
+/*======= latest_travel_guide =======*/
+.latest-travel-area {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    &::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: #000;
+        z-index: -1;
+        opacity: 0.4;
+    }
+    .row {
+        height: 70vh;
+        h2 {
+            font-weight: 700;
+            font-size: 41px;
+            line-height: 1.2;
+            text-transform: capitalize;
+            color: $color-white;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 50px;
+        }
+    }
+}
+/*======= latest-posts-area =======*/
+.latest-posts-area {
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 48px;
+        text-transform: capitalize;
+        padding-bottom: 75px;
+    }
+    .latest-posts-content {
+        .card {
+            .card-img-top {
+                z-index: 2;
+            }
+            .card-body {
+                z-index: 1;
+                margin-top: -10px;
+                padding: 30px;
+                background: #fafafa;
+                border-radius: 0px 0px 20px 20px;
+            }
+        }
+    }
+    .middle {
+        padding-top: 75px;
+        text-align: center;
+    }
+}
+/*======= my-tours-area =======*/
+.my-tours-area {
+    background: #fafafa;
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 48px;
+        text-transform: capitalize;
+        padding-bottom: 75px;
+    }
+    .card {
+        background: transparent;
+    }
+}
+/*======= explored-area =======*/
+.explored-area {
+    padding-top: 100px;
+    .exp-left {
+        h2 {
+            font-weight: 600;
+            font-size: 42px;
+            line-height: 47px;
+            text-transform: capitalize;
+        }
+        p {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 26px;
+            text-transform: capitalize;
+        }
+    }
+    .exp-right {
+        img {
+            border-radius: 20px;
+        }
+    }
+}
+/*====== seen-in-arae =======*/
+.seen-in-arae {
+    background: #fafafa;
+    padding-bottom: 100px;
+    h2 {
+        margin-bottom: 70px;
+        font-weight: 600;
+        font-size: 42px;
+        line-height: 47px;
+        text-transform: capitalize;
+    }
+}
+/*======= common card =======*/
+.card {
+    border: 0px;
+    .card-img-overlay {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding: 30px 40px;
+    }
+    .card-title {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 1.28;
+        text-transform: capitalize;
+    }
+    .card-sup-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.63;
+        text-transform: capitalize;
+        color: $color-white;
+    }
+    .card-text {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+}
+
+/*
+.stretched-link {
+        position: relative;
+        &::after {
+            position: absolute;
+            content: "";
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 0;
+            height: 4px;
+            border-bottom: 5px;
+            background-color: #ffd937;
+            transition: 0.4s;
+            animation-name: scale;
+            animation-duration: 0.3s;
+            animation-direction: reverse;
+            transform: scale(0);
+        }
+        &:hover::after {
+            width: 100%;
+            transform: scale(1);
+        }
+    }
+*/
+
 /*======= Specific Section =======*/
 .subscription-area {
     background-repeat: no-repeat;
